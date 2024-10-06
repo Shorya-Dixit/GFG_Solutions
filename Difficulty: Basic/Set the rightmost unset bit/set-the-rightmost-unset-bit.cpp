@@ -10,6 +10,7 @@ class Solution {
         return n|(n+1);
     }
 };
+// to unset the rightmost set bit (n&(n-1))
 
 //{ Driver Code Starts.
 int main() {
